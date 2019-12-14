@@ -1,0 +1,5 @@
+c++
+zapis i odczyt z plików, fstream, jak się dostać do tych danych
+
+budowa klasy, plik nagłówkowy, po chuj on,jak działa kompilowanie wielu klas.
+ jak dołożyć dodatkową klasę i skompilować w jednym poleceniu.
