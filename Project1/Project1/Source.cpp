@@ -2,26 +2,27 @@
 #include <string>
 #include <random>
 #include <ctime>
+#include "tstring.h"
 
 using namespace std;
 
-// ZAJÊCIA I
+// ZAJÊCIA II
 	
 
 int main() {
-	random_device rd;		//tylko raz na pocz¹tku
-	mt19937_64 gen(rd());	//seed z rd
-	//mo¿na te¿ tak:
-	//mt19937::result_type seed = time(0);
-	//mt19937_64 gen(seed);
-	//generator p³aski w oparciu o typ <short>
+	
+	TString s1;
+	TString s2("inicjaliacja slowem");
+	TString s3(s2);
+	
 
-	uniform_int_distribution<short>dis;
 
-	//kilka liczb, konwertujemy na string
-
-	for (auto n = 0; n < 10; ++n) {
-		cout << dis(gen) << ' ' << to_string(dis(gen)) << ' ';
-		endl(cout);
-	}
 }
+/*
+NOTATAKI
+
+#indef TSTRING_H    - je¿eli zosta³a zdefiniowana to nie deklaruj jej ponownie
+#define TSTRING_H    - je¿eli nie zosta³a zdefiniowana, to wczytaj¹ j¹ i przejdŸ do endifa
+#endif - 
+
+*/

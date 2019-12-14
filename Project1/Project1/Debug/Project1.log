@@ -1,2 +1,3 @@
-﻿  Source.cpp
-  Project1.vcxproj -> F:\Pulpit\STUDIA\Programowanie Zaawansowane\Z3\Project1\Debug\Project1.exe
+﻿  tstring.cpp
+F:\Pulpit\STUDIA\Programowanie Zaawansowane\Z3\Project1\Project1\tstring.cpp(11,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
